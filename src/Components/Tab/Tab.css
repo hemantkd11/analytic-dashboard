@@ -1,0 +1,33 @@
+.tab-nav-list-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+.Tabs{
+    display: flex;
+}
+.navx{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    align-items: center;
+}
+.top-trend-tap-heading{
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.top-trend-tap-heading h2{
+    font-size: 1.5rem;
+    font-family: Avenir;
+    color: rgb(47, 182, 219);
+}
+.latestnews-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}

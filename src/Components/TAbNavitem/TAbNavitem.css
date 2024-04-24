@@ -1,0 +1,20 @@
+
+.Nav-list{
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.active{
+    color: gold;
+    border-bottom: 2px solid gold;
+    transition: all .01s ease-in-out ;
+    
+}

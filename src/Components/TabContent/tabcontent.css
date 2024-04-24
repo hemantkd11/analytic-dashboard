@@ -1,0 +1,14 @@
+.Tabcontent {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  transition: ease-in;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.Tabconten::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+  transition: ease-out;
+}

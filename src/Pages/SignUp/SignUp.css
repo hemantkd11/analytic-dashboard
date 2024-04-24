@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+/* html,body{
+background-image: url('https://cdn.wallpapersafari.com/60/87/sRyDw7.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+} */
+.login-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containers-SignUp {
+  width: 100%;
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.form-box-signUp {
+  width: 100%;
+  margin-top: 45px ;
+  margin-bottom: 45px;
+  max-width: 600px;
+  z-index: 2;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px black;
+  flex-direction: column;
+  height: auto;
+  border-radius: 0 10% 0 10%;
+  overflow: hidden;
+  gap: 20px;
+  padding: 20px 0px 20px 0px ;
+  justify-content: center;
+}
+.wel-heading-login .si-h{
+  font-size: 25px;
+}
+.card {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  background-color: transparent !important;
+  --bs-card-border-width: none !important;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+.card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-logo {
+  width: 20%;
+  /* object-fit: contain;
+    mix-blend-mode:color-burn; */
+}
+.login-logo img {
+  width: 100%;
+  height: auto;
+}
+.card-header h3 {
+  color: rgb(8, 8, 8);
+  font-weight: 500;
+}
+
+.Heading {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.wel-text {
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  justify-content: center;
+}
+.dirrect {
+  flex-direction: column;
+}
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: rgb(7, 7, 7);
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: rgb(0, 0, 0);
+}
+
+.links a {
+  margin-left: 4px;
+}
+.gap{
+  display: flex;
+  gap: 10px;
+}
+/* mobile view */
+/* @media screen and (max-width: 700px) {
+    .containers {
+        width: 100%;
+        background: white;
+
+
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-box {
+        width: 100%;
+        
+        z-index: 2;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 10px black;
+        flex-direction: column;
+        height: 75%;
+
+        overflow: hidden;
+        gap: 20px;
+        padding: 17% 0;
+        justify-content: center;
+      }
+  } */
+  .error-message{
+    color: red;
+  }
+
+  .form-input-filed-display{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input-signup-field{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 5px;
+    box-sizing: border-box;
+  }
+  .input-set{
+    width: 100%;
+  }
+  .half-signup-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-group{
+    margin-top: 20px;
+  }
+  @media only screen and (max-width: 550px) {
+    .containers {
+        width: 100%;      
+        height: auto;
+      }
+    .form-box {
+        width: 100%;
+        border-radius: 0px 0px 0px 0px ;
+        box-shadow: none;
+      }
+  }

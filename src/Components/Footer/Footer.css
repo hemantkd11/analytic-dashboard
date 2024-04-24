@@ -1,0 +1,413 @@
+/* .footer_container {
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+  }
+  .footer-box {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 12px;
+  }
+  .Footer-header-text {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .footer-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .list-details {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding-left: 5px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-details {
+    width: 100%;
+    display: flex;
+  
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 16px;
+    padding-left: 15px;
+  }
+  .footer-list ul li {
+    list-style: none;
+  }
+  .Flex-for-Row {
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+  }
+  .email-text-field {
+    font-size: 11px;
+    padding: 10px 0 0 0;
+    line-height: 20px;
+  }
+  
+  .flexBox {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(158, 156, 156);
+    line-height: 12px;
+  }
+  .text-color {
+    color: rgb(235, 229, 229);
+    padding: 2px 0px 2px 0px;
+  }
+  .footer-gap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    gap: 5px;
+  }
+  
+  .padding {
+    padding-bottom: 3px;
+  }
+  .dev-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 18px;
+  }
+  .WebPagement-solution {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer-icon{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .footer-icon a{
+    display: flex;
+    align-items: center;
+    padding: 4px 4px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: rgb(234, 234, 234);
+    background-color:transparent;
+  }
+  @media only screen and (max-width: 800px) {
+    .WebPagement-solution {
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .font {
+      font-size: 8px;
+    }
+  }
+  .Web-tech {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  .email-box {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .font {
+    font-size: 10px;
+  }
+  .list-details-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .text-footer-right {
+    border-right: 1px solid rgb(28, 27, 27);
+    line-height: 30px;
+  }
+  .text-footer-left {
+    border-left: 1px solid rgb(28, 27, 27);
+    padding-left: 0.5rem;
+  }
+  .text-shade {
+    color: rgb(131, 127, 127);
+  }
+
+  @media only screen and (max-width: 550px) {
+    .footer-details {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+    .flexBox {
+      width: 100%;
+    }
+    .text-footer-right {
+      border-bottom: 1px solid rgb(28, 27, 27);
+      border-right: none;
+    }
+    .footer-content {
+      width: 50%;
+      padding-left: 0px;
+    }
+    .footer-divst {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .list-details {
+      border-bottom: 1px solid rgb(28, 27, 27);
+    }
+    .text-footer-left {
+      border-left: none;
+      padding-left: 0.5rem;
+    }
+  }
+  
+  .solution_box {
+    padding-top: 20px;
+  }
+  .log-in-btn{
+    margin-top: 20px;
+  } */
+  .footer_container {
+    border-top: 1px solid black;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      color: rgb(111, 109, 109);
+      display: flex;
+      padding: 10px 0px;
+      justify-content: center;
+    }
+    .footer-box {
+      width: 90%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      font-size: 12px;
+    }
+    .Footer-header-text {
+      font-weight: 700;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .footer-text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .list-details {
+      width: 100%;
+      display: flex;
+      
+      flex: 1;
+      padding-left: 5px;
+      justify-content: center;
+      gap: 20px;
+    }
+    .footer-details {
+      width: 100%;
+      display: flex;
+      margin-left: 14px;
+      justify-content: center;
+      gap: 10px;
+    }
+    .footer-content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      line-height: 16px;
+      padding-left: 15px;
+    }
+    .footer-list ul li {
+      list-style: none;
+    }
+    .Flex-for-Row {
+      display: flex;
+      padding-top: 20px;
+      gap: 10px;
+    }
+    .email-text-field {
+      font-size: 11px;
+      padding: 10px 0 0 0;
+      line-height: 20px;
+    }
+    
+    .flexBox {
+      width: 14.3%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      color: rgb(158, 156, 156);
+      line-height: 20px;
+    }
+    .text-color {
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      padding: 2px 0px 2px 0px;
+    }
+    .footer-gap {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1px;
+      gap: 5px;
+    }
+    
+    .padding {
+      padding-bottom: 3px;
+    }
+    .dev-box {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      line-height: 18px;
+    }
+    .WebPagement-solution {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .footer-icon{
+      display: flex;
+      gap: 10px;
+    
+    }
+    .footer-icon a{
+      display: flex;
+      align-items: center;
+      padding: 4px 4px;
+      /* border: 1px solid white; */
+      border-radius: 50%;
+      color: rgb(47, 86, 153);
+      background-color:transparent;
+    }
+    @media only screen and (max-width: 800px) {
+      .WebPagement-solution {
+        font-size: 10px;
+        line-height: 15px;
+      }
+      .font {
+        font-size: 8px;
+      }
+    }
+    .Web-tech {
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+    }
+    .email-box {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+    }
+    .font {
+      font-size: 10px;
+    }
+    .list-details-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .text-footer-right {
+      /* border-right: 1px solid rgb(28, 27, 27); */
+      line-height: 30px;
+    }
+    .text-footer-left {
+      border-left: 1px solid rgb(28, 27, 27);
+      padding-left: 0.5rem;
+    }
+    .text-shade {
+      color: rgb(131, 127, 127);
+    }
+    @media only screen and (max-width: 550px) {
+      .footer-details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+      }
+      .flexBox {
+        width: 100%;
+      }
+      .text-footer-right {
+        border-bottom: 1px solid rgb(28, 27, 27);
+        border-right: none;
+      }
+      .footer-content {
+        width: 50%;
+        padding-left: 0px;
+      }
+      .footer-divst {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .list-details {
+        border-bottom: 1px solid rgb(28, 27, 27);
+      }
+      .text-footer-left {
+        border-left: none;
+        padding-left: 0.5rem;
+      }
+    }
+    
+    .solution_box {
+      padding-top: 20px;
+    }
+    .log-in-btn{
+      margin-top: 20px;
+    }
+  
+    /* new footer css */
+    .footer-logo{
+      width:100px;
+    
+    }
+    .footer-logo img{
+      width: 100%;
+    }
+    .small-footer-box{
+      width: 8%;
+      line-height: 20px;
+    }
+    .small-footer-box1{
+      width: 11%;
+      line-height: 20px;
+    }
+    .flexBox1{
+      width: 12%;
+      line-height: 20px;
+    }
+  
+    .flexBox4{
+      width: 14%;
+      line-height: 20px;
+    }
+    .flexBox2{
+      width: 20%;
+      line-height: 20px;
+    }
+    .flexBox3{
+      width: 27%;
+      line-height: 30px;
+    }
+    .flex-gap{
+      padding: 0px 5px;
+    }

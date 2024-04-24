@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+.Sales-Container {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  
+  box-sizing: border-box;
+  background: white;
+  background-image: linear-gradient(25deg, #ffffff,#ffffff );
+}
+.sales-box {
+  width: 95%;
+  margin-top: 90px;
+}
+.main-sales-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* userdata part */
+.dashboard-User-data-box {
+  display: grid;
+  grid-template-columns: repeat(5 ,18.7%);
+  z-index: 10;
+  gap: 20px;
+}
+.user-data-wrapper {
+  padding: 10px;
+  background-image: linear-gradient(25deg, #9de7dd,#ffffff );
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+}
+.user-data-wrapper:hover {
+  background-image: linear-gradient(25deg, #f3dd90,#e75d33 );
+}
+.total-data {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.Top-Selling-Box{
+    box-sizing: border-box;
+    background-image:linear-gradient(25deg, #fbfdfe,#ffffff );
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.Count-box{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgb(162, 31, 73);
+}
+/*    ////   sale-dashboard  //// */
+
+.Sales-dashboard-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,32.25%);
+    /* grid-template-columns: auto auto auto; */
+    grid-gap: 20px;
+}
+.box-heading{
+    padding: 10px;
+}
+.box-heading h4{
+    font-size: 1.4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item{
+  grid-column:  span 3;
+}
+.item2{
+  grid-column:  span 2;
+}
+.SalesMap-wrapper{
+  width: 100%;
+  height: 100px;
+}
+/* tooltip */
+/* .detail-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.detail-tooltip .detail-tooltiptex{
+  display: none;
+  width: 120px;
+  background-color: black;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 30;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.detail-tooltip .detail-tooltiptext::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.detail-tooltip:hover .detail-tooltiptext{
+  display:flex;
+} */
+
+
+/* market dashboard */
+
+.market-dashboard-container{
+  width: 100%;
+  margin-top: -115px; 
+  z-index: 1;
+  height: 1000px;
+  background-image: url("../../../public/marktingdashboard.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  /* margin-left: ; */
+}
